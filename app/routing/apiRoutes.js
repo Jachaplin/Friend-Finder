@@ -4,6 +4,7 @@
 // ===============================================================================
 
 var friends = require('../data/friends.js');
+// var survey = require('../public/survey.html');
 
 module.exports = function (app) {
   // //api path to get the friends data, responds with a json object (an array of friends). Activated on both html pages with blue API Link
@@ -55,6 +56,8 @@ module.exports = function (app) {
 
       // Put new friend from survey in "database" array
       friends.push(newFriend);
+
+     
 
       // return the best match friend
       res.json(bestMatch);
