@@ -2,7 +2,7 @@
   "name": "friend-finder",
   "version": "1.0.0",
   "description": "dating app",
-  "main": "server.js",
+  "main": "home.html",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
